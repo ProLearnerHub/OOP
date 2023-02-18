@@ -1,1 +1,24 @@
-# uodating later
+Object Oriented Programming refers to the concept of buildong software around data (or objects), as opposed to say, functions or logic.
+It was coined by Alan Kay, and has since grown in popularity and ease.
+
+Objects can be considered as real life items, like a person, a vehicle, a book etc.
+
+Objects are entities with attributes and methods.
+For example, a person can have { name, age, occupation } attributes, and (listens_to_music, reads_books) methods.
+
+Methods are functions relative to an object or a class.
+
+A class can be considered as an "interface" for similarly designed objects.
+
+For example, car can be a class with attributes like, { model, color, year_of_manufacture }, and Toyota is an object within Car class with attributes inherited from thr parent class, and values such as { "Toyota", "gray", "2023" } etc.
+
+There are several concepts in O.O.P including:
+
+- Abstraction
+- Inheritance
+- Polymorphism
+- Message Passing
+
+Among others.
+
+We'll look deeper into this later.
