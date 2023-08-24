@@ -10,7 +10,44 @@ Methods are functions relative to an object or a class.
 
 A class can be considered as an "interface" for similarly designed objects.
 
-For example, car can be a class with attributes like, { model, color, year_of_manufacture }, and Toyota is an object within Car class with attributes inherited from thr parent class, and values such as { "Toyota", "gray", "2023" } etc.
+For example, car can be a class with attributes like, { model, color, year_of_manufacture }, and 
+Toyota is an object within Car class with attributes inherited from thr parent class, and values such as { "Toyota", "gray", "2023" } etc.
+
+Using this text file as an example:
+
+  - It has a url, a title and content
+  - It can be read, edited and deleted
+
+Therefore, it can be represented as an object with properties which can include methods.
+
+  object text_file = { url, title, content, read(), edit(), delete() }
+
+You can then call these properties as such:
+
+  text_file.url or text_file[url]
+  text_file.title or text_file[title]
+  text_file.content or text_file[content]
+  text_file.read() or text_file[read()]
+  text_file.edit() or text_file[edit()]
+  text_file.delete() or text_file[delete()]
+
+
+object person = { name, age, height, race, gender, is_disabled(), knows_oop() }
+
+The above object defines a person, with various accessible properties.
+
+As with the text_file object, we can call the properties, and maybe even change them.
+
+A real life scenario would be updating the person's details in the government database.
+
+  update_database(find user.name="User Name" set user.replaceNationalId=true, user.replaceRequest=2)
+
+  This pseudocode assumes that for a person with name "User Name", find their entry in the database and update the 
+  replaceNationalId field to show that they have requested to replace their document, and that this is the 2nd time they are
+  requesting the replacement.
+
+  The user is the object, and [ user.name, user.replaceNationalId and user.replaceRequest] are the properties for the user.
+
 
 There are several concepts in O.O.P including:
 
